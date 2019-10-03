@@ -20,5 +20,25 @@ namespace Fizzbuzz.Test
             Assert.AreEqual(false, fizzbuzz.Divisibility(7, 2));
             Assert.AreEqual(false, fizzbuzz.Divisibility(4, 0));
         }
+          
+        [Test]
+        public void TestFizz()
+        {
+            Assert.AreEqual("Fizz", fizzbuzz.SayFizzBuzz(3));
+            Assert.AreEqual("Fizz", fizzbuzz.SayFizzBuzz(6));
+        }
+
+        [Test]
+        public void TestBuzz()
+        {
+            Assert.AreEqual("Buzz", fizzbuzz.SayFizzBuzz(5));
+            Assert.AreEqual("Buzz", fizzbuzz.SayFizzBuzz(10));
+        }
+
+        [Test]
+        public void TestFizzBuzz()
+        {
+            Assert.AreEqual("Fizzbuzz", fizzbuzz.SayFizzBuzz(15));
+        }
     }
 }

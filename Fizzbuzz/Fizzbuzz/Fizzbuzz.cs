@@ -8,7 +8,7 @@ namespace Fizzbuzz
 {
     public class Fizzbuzz
     {
-        enum Output { Fizz, Buzz, Fizzbuzz }
+        public enum Output { Fizz, Buzz, Fizzbuzz }
 
         /**
          * Default constructor
@@ -22,7 +22,7 @@ namespace Fizzbuzz
          */
         public Fizzbuzz(int startRange, int endRange) : this()
         {
-            
+
         }
 
         /**
@@ -38,6 +38,32 @@ namespace Fizzbuzz
         {
             if (divisor > 0 && dividend % divisor == 0) return true;
             return false;
-        }        
+        }
+
+        /**
+         * Check if a dividend number is divisible by either 3, 5 or both 
+         * out producing any remainder and return appropriate output
+         * 
+         * @param number, the dividend
+         * @return fizz, if divisible by 3
+         * @return buzz, if divisible by 5
+         * @return fizzbuzz, if divisible by 3 and 5
+         */
+        public string SayFizzBuzz(int number)
+        {
+            if(Divisibility(number, 3) && Divisibility(number, 5))
+            {
+                return Output.Fizzbuzz.ToString();
+            }
+            else if(Divisibility(number, 3))
+            {
+                return Output.Fizz.ToString();
+            }
+            else if(Divisibility(number, 5))
+            {
+                return Output.Buzz.ToString();
+            }
+            return null;        
+        }
     }
 }
