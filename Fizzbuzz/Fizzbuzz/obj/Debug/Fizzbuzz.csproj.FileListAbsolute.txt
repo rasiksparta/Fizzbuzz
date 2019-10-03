@@ -1,0 +1,6 @@
+C:\Users\Rasik Rana\Desktop\csharp\week8\wednesday\Fizzbuzz\Fizzbuzz\Fizzbuzz\bin\Debug\Fizzbuzz.dll
+C:\Users\Rasik Rana\Desktop\csharp\week8\wednesday\Fizzbuzz\Fizzbuzz\Fizzbuzz\bin\Debug\Fizzbuzz.pdb
+C:\Users\Rasik Rana\Desktop\csharp\week8\wednesday\Fizzbuzz\Fizzbuzz\Fizzbuzz\obj\Debug\Fizzbuzz.csproj.CoreCompileInputs.cache
+C:\Users\Rasik Rana\Desktop\csharp\week8\wednesday\Fizzbuzz\Fizzbuzz\Fizzbuzz\obj\Debug\Fizzbuzz.dll
+C:\Users\Rasik Rana\Desktop\csharp\week8\wednesday\Fizzbuzz\Fizzbuzz\Fizzbuzz\obj\Debug\Fizzbuzz.pdb
+C:\Users\Rasik Rana\Desktop\csharp\week8\wednesday\Fizzbuzz\Fizzbuzz\Fizzbuzz\obj\Debug\Fizzbuzz.csprojAssemblyReference.cache
